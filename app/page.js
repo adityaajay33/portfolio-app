@@ -7,8 +7,8 @@ export default function Home() {
     <main>
       <Navbar />
       <div className={styles.description}>
-        <p>
-          Hello.
+        <p className="titleName">
+          Aditya Ajay
         </p>
       </div>
     </main>
