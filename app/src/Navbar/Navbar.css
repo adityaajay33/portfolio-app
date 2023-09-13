@@ -1,0 +1,21 @@
+.navbarDiv{
+
+    width: 98%;
+    margin: 1% 1% 0% 1%;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+}
+
+.logoDiv{
+
+    color: black;
+    width: 30%;
+}
+
+.websitePages
+{
+    color: black;
+    background-color: purple;
+}
