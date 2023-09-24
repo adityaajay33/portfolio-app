@@ -1,0 +1,24 @@
+.introductionBox{
+
+    width: 98%;
+    margin: 1% 1% 0% 1%;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 10px 0px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.profilePicture{
+    width: 30%;
+}
+
+.nameBackground{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
