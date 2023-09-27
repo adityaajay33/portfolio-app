@@ -1,72 +1,28 @@
-.navbarDiv {
-    width: 100%;
-    margin-right: 10px;
-    border-radius: 10px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
-    height: 80px;
-    justify-items: center;
-    align-items: center;
-  }
-  
-  .websitePages {
-    color: black;
-    width: 100%;
-    height: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    font-family: 'Quicksand', sans-serif;
-    align-items: center;
-  }
-  
-  .navLinks {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-  }
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
 
-  .linkWeb {
+.navbarHome{
+
+    background-color: black;
+    height: 60px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.linkOnline{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 10px 0; /* Adjust padding as needed */
-    display: inline-block; /* Make the link inline-block */
-    width: calc(33.33% - 20px); /* Adjust width considering padding */
-    text-align: center; /* Center the text */
-    box-sizing: border-box; /* Include padding in width calculation */
-  }
-  
-  
-  .linkWeb:hover {
-    background-color: rgb(152, 126, 58);
-  }
-  
-  /* Rest of your styles */
-  
-  .linksAbout {
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-    margin: 1% 45%;
+    color: white;
+    padding-top: 3.5%;
     font-size: 20px;
-    border-right: solid rgb(152, 126, 58) 2px;
-    background-color: grey;
-    width: 100%;
-  }
-  
-  .linksProject {
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-    margin: 1% 45%;
-    font-size: 20px;
-    width: 100%;
-  }
-  
-  .linksExp {
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-    margin: 1% 45%;
-    font-size: 20px;
-    width: 100%;
-  }
+    border-right: solid rgb(102, 83, 51) 0.5px;
+    border-left: solid rgb(102, 83, 51) 0.5px;
+}
+
+.linkOnline:hover{
+     background-color: rgb(87, 69, 40);
+
+}
