@@ -1,52 +1,72 @@
-.navbarDiv{
-
+.navbarDiv {
     width: 100%;
     margin-right: 10px;
     border-radius: 10px;
     background-color: rgb(0, 0, 0);
     display: flex;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
-    height: 60px;
+    height: 80px;
     justify-items: center;
     align-items: center;
-}
-
-.logoDiv{
-
-    color: rgb(255, 255, 255);
-    width: 60%;
-    padding: 2px;
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.websitePages
-{
+  }
+  
+  .websitePages {
     color: black;
-    width: 40%;
-
-}
-
-.navLinks{
-
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+  }
+  
+  .navLinks {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 100px;
-}
+    font-family: 'Quicksand', sans-serif;
+  }
 
-.indLink{
-
-    margin: 0% 6%;
-
-}
-
-.linkWeb{
+  .linkWeb {
     text-decoration: none;
-    color: rgb(255, 255, 255)
-}
-
+    color: rgb(255, 255, 255);
+    padding: 10px 0; /* Adjust padding as needed */
+    display: inline-block; /* Make the link inline-block */
+    width: calc(33.33% - 20px); /* Adjust width considering padding */
+    text-align: center; /* Center the text */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  
+  .linkWeb:hover {
+    background-color: rgb(152, 126, 58);
+  }
+  
+  /* Rest of your styles */
+  
+  .linksAbout {
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 1% 45%;
+    font-size: 20px;
+    border-right: solid rgb(152, 126, 58) 2px;
+    background-color: grey;
+    width: 100%;
+  }
+  
+  .linksProject {
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 1% 45%;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  .linksExp {
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 1% 45%;
+    font-size: 20px;
+    width: 100%;
+  }

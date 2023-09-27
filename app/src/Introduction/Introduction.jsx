@@ -11,7 +11,7 @@ const Introduction = () => {
       <div className="waterSerpents">
         <Image className="waterImage" src={waterSerpentsII} width={1350} />
       </div>
-      <div className="different Box">
+      <div className="differentBox">
         <Image src={card} width={700} className='cardBusiness' />
       </div>
     </div>
