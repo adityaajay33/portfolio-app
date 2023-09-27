@@ -1,24 +1,40 @@
 .introductionBox{
 
-    width: 98%;
-    margin: 1% 1% 0% 1%;
-    margin-right: 10px;
-    border-radius: 10px;
-    background-color: white;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
     color: black;
     display: flex;
-    padding: 10px 0px;
-    box-shadow: 1px 1px 1px 1px grey;
-}
+    height: 300px;
+    margin-top: 10%;
+    padding-right: 10px; 
+} 
 
 .profilePicture{
     width: 30%;
+    padding-left: 30px;
+    background-color: white;
 }
 
 .nameBackground{
 
+    color: white;
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 
+.waterSerpents{
+
+    position: absolute;
+    z-index: -1;
+}
+
+.wholeBox{
+    overflow: auto;
+}
+
+.cardBusiness{
+
+    margin-left: 25%;
+    margin-top: 10%;
+}

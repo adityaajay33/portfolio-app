@@ -10,9 +10,6 @@ export default function Home() {
       <Navbar />
       <Introduction/>
       <div className={styles.description}>
-        <p className="titleName">
-          Aditya Ajay
-        </p>
       </div>
     </main>
   )
