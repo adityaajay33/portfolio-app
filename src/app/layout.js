@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter, Quicksand, Martian_Mono } from 'next/font/google'
+import { Inter, Quicksand, Martian_Mono, Sometype_Mono, Roboto_Mono } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 

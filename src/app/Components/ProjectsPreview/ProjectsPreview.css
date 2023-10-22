@@ -1,17 +1,32 @@
 .projectsMatrix{
 
     display: grid;
-    grid-template-rows: repeat(6, 400px);
+    grid-template-rows: repeat(3, 230px);
     margin-top: 10%;
 
-    background-color: black;
+    background-color: rgb(1, 1, 1);
     color: white;
+
+    padding-top: 3%;
 
 }
 
 .projectsBox{
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+
+    flex-direction: column;
+    padding: 0px 25px;
+
+
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(to right, transparent 20%, rgb(185, 135, 54) 40%, transparent 60%);
+    border-image-slice: 1;
+    border-image-width: 60%;
+    border-image-repeat: stretch;
+    border-radius: 0;
+    margin-bottom: 50px;
+
 }
 
 .projectIcon{
@@ -20,11 +35,29 @@
     height: 50%;
 }
 
-.pictureBoxArea{
+.titleBox{
 
-    width: 20%;
+    font-size: 36px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+
+    font-family: 'Sometype Mono', monospace;
+
+    color: rgb(185, 135, 54);
 }
 
-.descriptionBox{
-    width: 80%;
+.workDescription{
+
+    font-size: 22px;
+    padding: 10px;
+    padding-left: 8px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
+.titleBox:hover{
+    background-color: rgb(185, 135, 54);
+
 }
