@@ -1,13 +1,18 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
 .projectsMatrix{
 
     display: grid;
-    grid-template-rows: repeat(3, 230px);
+    grid-template-rows: 150px, 230px, 230px, 230px;
     margin-top: 10%;
 
     background-color: rgb(1, 1, 1);
     color: white;
 
-    padding-top: 3%;
+    padding-top: 2%;
 
 }
 
@@ -16,7 +21,7 @@
     align-items: flex-start;
 
     flex-direction: column;
-    padding: 0px 25px;
+    margin: 0px 0px;
 
 
     border: 1px solid transparent;
@@ -37,27 +42,85 @@
 
 .titleBox{
 
-    font-size: 36px;
+    font-size: 40px;
     padding: 10px;
-    padding-left: 0px;
+    padding-left: 26px;
     padding-bottom: 10px;
+
+    width: 100%;
 
     font-family: 'Sometype Mono', monospace;
 
     color: rgb(185, 135, 54);
+    flex-direction: row;
 }
 
 .workDescription{
 
     font-size: 22px;
     padding: 10px;
-    padding-left: 8px;
+    padding-left: 33px;
 
     font-family: 'Roboto Mono', monospace;
     font-weight: 200;
 }
 
 .titleBox:hover{
-    background-color: rgb(185, 135, 54);
+    background-color: rgb(70, 55, 32);
 
 }
+
+.projectsTitle{
+
+    font-size: 50px;
+    color: rgb(236, 175, 76);
+
+    padding-left: 25px;
+    padding-bottom: 30px;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.titleWorld{
+
+    width: 35%;
+    background-color: rgb(0, 0, 0);
+}
+
+.projectsBox.expanded .titleBox .arrow::before {
+    content: '▲';
+  }
+  
+  .projectsBox .titleBox .arrow::before {
+    content: '▼';
+  }
+  
+  .projectsBox .workDescription {
+    display: none;
+  }
+  
+  .projectsBox.expanded .workDescription {
+    display: block;
+  }
+
+.arrow{
+    width: 40%;
+}
+
+.projectsBox.expanded .titleBox + .arrow::before {
+    content: '▲';
+    float: right; /* Float the arrow to the right */
+  }
+  
+  .projectsBox .titleBox + .arrow::before {
+    content: '▼';
+    float: right; /* Float the arrow to the right */
+  }
+  
+  .projectsBox .workDescription {
+    display: none;
+  }
+  
+  .projectsBox.expanded .workDescription {
+    display: block;
+  }
