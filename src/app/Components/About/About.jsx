@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div>
         <div>
-            <Slideshow images={images} interval={5000} /> 
+            <Slideshow images={images} /> 
         </div>
     </div>
   )

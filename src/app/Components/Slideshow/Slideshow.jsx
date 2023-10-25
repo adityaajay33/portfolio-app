@@ -19,7 +19,7 @@ const Slideshow = ({images, interval}) => {
   return (
     <div>
         <div className="slideshow">
-            <Image src={velocity} width={700} alt="Slideshow" />
+            <Image src={velocity} width={600} alt="Slideshow" />
         </div>
     </div>
   )

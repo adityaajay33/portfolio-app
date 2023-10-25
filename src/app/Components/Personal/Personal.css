@@ -1,0 +1,72 @@
+.myName{
+
+
+    font-size: 50px;
+    color: rgb(236, 175, 76);
+
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 10px;
+    
+}
+
+.backgroundAditya{
+
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    font-family: 'Sometype Mono', monospace;
+}
+
+.mySkills{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px;
+    
+}
+
+.reactSkill{
+    color: white;
+    background-color: rgb(236, 175, 76);
+    margin: 2px;
+    box-shadow: 1px 1px 1px 1px rgb(187, 187, 187);
+
+    text-align: center;
+
+    font-weight: 600;
+    padding-top: 8px;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pythonSkill{
+    color: white;
+    background-color: rgb(236, 175, 76);
+    box-shadow: 1px 1px 1px 1px rgb(187, 187, 187);
+    margin: 2px;
+    box-shadow: solid rgb(233, 230, 230) 2px;
+
+    text-align: center;
+
+    font-weight: 600;
+    padding-top: 8px;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nodeSkill{
+    color: white;
+    background-color: rgb(236, 175, 76);
+    box-shadow: 1px 1px 1px 1px rgb(187, 187, 187);
+    margin: 2px;
+    box-shadow: solid rgb(107, 107, 107) 2px;
+
+    text-align: center;
+
+    font-weight: 600;
+    padding-top: 8px;
+
+    font-family: 'Roboto Mono', monospace;
+}

@@ -5,6 +5,7 @@ import kaws from "../../assets/kaws.png"
 import waterSerpentsII from "../../assets/wasserschlangen.jpeg"
 import card from "../../assets/bcard.png"
 
+
 const Introduction = () => {
   return (
     <div className="wholeBox">
