@@ -4,6 +4,7 @@ import Footer from '../../Components/Footer/Footer'
 import About from '../../Components/About/About'
 import Personal from '../../Components/Personal/Personal'
 import "./about.css"
+import Contact from '../../Components/Contact/Contact'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
           <About />
           <Personal />
         </div>
+        <Contact />
         
         <Footer />
     </div>

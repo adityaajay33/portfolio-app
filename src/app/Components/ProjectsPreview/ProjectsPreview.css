@@ -81,10 +81,14 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.titleWorld{
+.titleChild{
 
-    width: 35%;
-    background-color: rgb(0, 0, 0);
+  width: 60%;
+  font-weight: 900;
+}
+
+.arrow{
+  width: 20%;
 }
 
 .projectsBox.expanded .titleBox .arrow::before {
@@ -103,9 +107,7 @@ body {
     display: block;
   }
 
-.arrow{
-    width: 40%;
-}
+
 
 .projectsBox.expanded .titleBox + .arrow::before {
     content: '▲';
@@ -117,6 +119,7 @@ body {
     float: right; /* Float the arrow to the right */
   }
   
+  
   .projectsBox .workDescription {
     display: none;
   }
@@ -124,3 +127,4 @@ body {
   .projectsBox.expanded .workDescription {
     display: block;
   }
+

@@ -7,10 +7,19 @@ import pbase from "../../assets/projects_icons/11.jpg"
 import desserto from "../../assets/projects_icons/desserto.png"
 
 const ProjectsPreview = () => {
-    const [showDescription, setShowDescription] = useState(false);
+    const [showDescriptionPBase, setShowDescriptionPBase] = useState(false);
+    const [showDescriptionRP, setShowDescriptionRP] = useState(false);
+    const [showDescriptionDesserto, setShowDescriptionDesserto] = useState(false);
+
   
-    const toggleDescription = () => {
-      setShowDescription(!showDescription);
+    const toggleDescriptionPBase = () => {
+      setShowDescriptionPBase(!showDescriptionPBase);
+    };
+    const toggleDescriptionRP = () => {
+      setShowDescriptionRP(!showDescriptionRP);
+    };
+    const toggleDescriptionDesserto = () => {
+      setShowDescriptionDesserto(!showDescriptionDesserto);
     };
   
     return (
@@ -18,35 +27,37 @@ const ProjectsPreview = () => {
         <div className="projectsTitle">
             Projects
         </div>
-        <div className={`projectsBox ${showDescription ? 'expanded' : ''}`} onClick={toggleDescription}>
+        <div className={`projectsBox ${showDescriptionPBase ? 'expanded' : ''}`} onClick={toggleDescriptionPBase}>
             <div className='titleBox'>
-                PortfolioBase
-                <span className="arrow">{showDescription ? '▲' : '▼'}</span>
+                <div className='titleChild'>
+                  PortfolioBase
+                </div>
+                <span className="arrow">{showDescriptionPBase ? '▲' : '▼'}</span>
             </div>
             
-            <div className={`workDescription ${showDescription ? 'show' : ''}`}>
+            <div className={`workDescription ${showDescriptionPBase ? 'show' : ''}`}>
             PortfolioBase connects design students with agencies for short-term and long-term employment opportunities through portfolio-sharing. There is a Minimum Viable Product available that is non-deployed. There exists beta users from both customer and agencies side.
             </div>
         </div>
         
-        <div className={`projectsBox ${showDescription ? 'expanded' : ''}`} onClick={toggleDescription}>
+        <div className={`projectsBox ${showDescriptionRP ? 'expanded' : ''}`} onClick={toggleDescriptionRP}>
           <div className='titleBox'>
             Machine Learning Research Paper
-            <span className="arrow">{showDescription ? '▲' : '▼'}</span>
+            <span className="arrow">{showDescriptionRP ? '▲' : '▼'}</span>
           </div>
           
-          <div className={`workDescription ${showDescription ? 'show' : ''}`}>
+          <div className={`workDescription ${showDescriptionRP ? 'show' : ''}`}>
             We want to provide a platform for people to share their delicious pieces of heaven. We believe that creators should be able to own their content without the presence of a central authority. Hence, a decentralized recipe sharing site.
           </div>
         </div>
 
-        <div className={`projectsBox ${showDescription ? 'expanded' : ''}`} onClick={toggleDescription}>
+        <div className={`projectsBox ${showDescriptionDesserto ? 'expanded' : ''}`} onClick={toggleDescriptionDesserto}>
           <div className='titleBox'>
             DeSsert                        
-            <span className="arrow">{showDescription ? '▲' : '▼'}</span>
+            <span className="arrow">{showDescriptionDesserto ? '▲' : '▼'}</span>
           </div>
           
-          <div className={`workDescription ${showDescription ? 'show' : ''}`}>
+          <div className={`workDescription ${showDescriptionDesserto ? 'show' : ''}`}>
             We want to provide a platform for people to share their delicious pieces of heaven. We believe that creators should be able to own their content without the presence of a central authority. Hence, a decentralized recipe sharing site!
           </div>
         </div>
