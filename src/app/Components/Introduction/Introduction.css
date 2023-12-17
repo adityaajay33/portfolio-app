@@ -39,3 +39,13 @@
     margin-top: 10%;
     box-shadow: 2px 2px 2px 2px rgb(146, 115, 57);
 }
+
+body{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.differentBox{
+    width: 100%;
+}
