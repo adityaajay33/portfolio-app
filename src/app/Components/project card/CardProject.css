@@ -1,14 +1,4 @@
 
-.experiencesBox{
-
-    
-    
-
-    background-color: rgb(0, 0, 0);
-
-    
-
-}
 
 .boxCard{
 
@@ -20,7 +10,6 @@
 .projectBackground{
 
     margin: 10px;
-    margin-top: 20px;
     
 }
 
@@ -31,14 +20,14 @@
     margin: 10px;
 }
 
-.titleBox{
+.titleBoxes{
     margin-bottom: 10px;
     font-size: 40px;
+    
+    color: rgb(185, 135, 54);
+
 }
 
-.backgroundBox{
-margin-top: 20px;
-}
 
 .description{
 
@@ -46,8 +35,9 @@ margin-top: 20px;
     font-size: 19px;
 }
 
-.cardBusiness{
-
-    margin-top: 10px;
-    margin-bottom: 10px;
+.containerDiv{
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 30%
 }

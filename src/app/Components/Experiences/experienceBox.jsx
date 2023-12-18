@@ -14,7 +14,8 @@ const ExperiencesBox = () => {
   return (
     <>
         <CardProject title={paragraphs.title1} paragraph={paragraphs.paragraph1} srcs={card}/>
-
+        <CardProject title={paragraphs.title1} paragraph={paragraphs.paragraph1} srcs={card}/>
+        <CardProject title={paragraphs.title1} paragraph={paragraphs.paragraph1} srcs={card}/>
     </>
   )
 }

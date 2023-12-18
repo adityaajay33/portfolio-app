@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Introduction from './Components/Introduction/Introduction'
 import ProjectsPreview from './Components/ProjectsPreview/ProjectsPreview'
+import VideoIntro from './Components/VideoIntro/VideoIntro'
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
         <Navbar />
         <Introduction />
       </div>
-      <ProjectsPreview />
+      <VideoIntro />
       <Footer />
       
       <div className={styles.description}>

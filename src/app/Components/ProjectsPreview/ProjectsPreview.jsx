@@ -2,15 +2,24 @@
 
 import React, { useState } from 'react'
 import "./ProjectsPreview.css"
-import Image from "next/image"
 import pbase from "../../assets/projects_icons/11.jpg"
 import desserto from "../../assets/projects_icons/desserto.png"
+
+
+import Image from "next/image"
+import card from "../../assets/bcard.png"
+import CardProject from '../project card/CardProject'
 
 const ProjectsPreview = () => {
     const [showDescriptionPBase, setShowDescriptionPBase] = useState(false);
     const [showDescriptionRP, setShowDescriptionRP] = useState(false);
     const [showDescriptionDesserto, setShowDescriptionDesserto] = useState(false);
 
+
+  const paragraphs = {
+    title1: "PortfolioBase",
+    paragraph1: "PortfolioBase is a platform that connects design students with agencies for short-term and entry-level employment opportunities.",
+  }
   
     const toggleDescriptionPBase = () => {
       setShowDescriptionPBase(!showDescriptionPBase);
@@ -36,7 +45,7 @@ const ProjectsPreview = () => {
             </div>
             
             <div className={`workDescription ${showDescriptionPBase ? 'show' : ''}`}>
-            PortfolioBase connects design students with agencies for short-term and long-term employment opportunities through portfolio-sharing. There is a Minimum Viable Product available that is non-deployed. There exists beta users from both customer and agencies side.
+            <CardProject title={paragraphs.title1} paragraph={paragraphs.paragraph1} srcs={card}/>
             </div>
         </div>
         

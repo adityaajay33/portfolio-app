@@ -7,7 +7,6 @@ body {
 
     display: grid;
     grid-template-rows: 150px, 230px, 230px, 230px;
-    margin-top: 10%;
 
     background-color: rgb(1, 1, 1);
     color: white;
@@ -53,6 +52,7 @@ body {
 
     color: rgb(185, 135, 54);
     flex-direction: row;
+    cursor: pointer;
 }
 
 .workDescription{

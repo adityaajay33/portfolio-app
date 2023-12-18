@@ -2,18 +2,24 @@ import React from 'react'
 import Image from "next/image"
 import "./CardProject.css"
 import card from "../../assets/bcard.png"
+import RetroButton from '../Retro-Button/RetroButton'
 
 const CardProject = ({title, paragraph, srcs}) => {
 
-    console.log(srcs);
+    const buttonText = "MORE";
   return (
     <div className='boxCard'>
             <div className="projectBackground">
-                <div className="titleBox">
-                    {title}
-                </div>
-                <div className="description">
-                    {paragraph}
+
+                <div className="containerDiv">
+                    <div className="titleBoxes">
+                        {title}
+                    </div>
+                    <div className="description">
+                        {paragraph}
+                    </div>
+
+                    <RetroButton text={buttonText} />
                 </div>
 
             </div>
