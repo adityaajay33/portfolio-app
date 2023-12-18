@@ -1,20 +1,22 @@
 import React from 'react'
 import "./experienceBox.css"
 
-const experiencesBox = () => {
-  return (
-    <div className='experiencesBox'>
-        <div className="projectBackground">
-            <div className="titleBox">
-                PortfolioBase
-            </div>
-            <div className="description">
-                PortfolioBase is a platform that connects design students with agencies for short-term and entry-level employment opportunities.
-            </div>
-        </div>
+import Image from "next/image"
+import card from "../../assets/bcard.png"
+import CardProject from '../project card/CardProject'
 
-    </div>
+const paragraphs = {
+    title1: "PortfolioBase",
+    paragraph1: "PortfolioBase is a platform that connects design students with agencies for short-term and entry-level employment opportunities.",
+}
+
+const ExperiencesBox = () => {
+  return (
+    <>
+        <CardProject title={paragraphs.title1} paragraph={paragraphs.paragraph1} />
+
+    </>
   )
 }
 
-export default experiencesBox;
+export default ExperiencesBox;
