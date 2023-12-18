@@ -1,7 +1,11 @@
 import React from 'react'
 import Image from "next/image"
+import "./CardProject.css"
+import card from "../../assets/bcard.png"
 
 const CardProject = ({title, paragraph, srcs}) => {
+
+    console.log(srcs);
   return (
     <div className='boxCard'>
             <div className="projectBackground">
