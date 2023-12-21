@@ -13,6 +13,10 @@ const ProjectsGallery = () => {
     <div className="container">
         <div className='pbDiv'>
             <Image src={pb} width={500}/>
+            <div className="overlay">
+                <h2 className="projectTitle">PortfolioBase</h2>
+                <p className="projectDescription">PortfolioBase: platform to connect design students with agencies.</p>
+            </div>
         </div>
         <div className="mlDiv">
             <Image src={jei} width={480}/>
