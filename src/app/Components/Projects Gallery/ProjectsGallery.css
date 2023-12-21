@@ -1,0 +1,47 @@
+.container{
+    background: black;
+
+    height: 800px;
+    width: 1200px;
+
+    display: grid;
+    grid-template-columns: 400px 80px 480px;
+    grid-template-rows: 240px 240px 360px 340px;
+
+    gap: 10px;
+}
+
+.pbDiv{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: white;
+    
+}
+
+.mlDiv{
+    grid-column: span 1;
+    grid-column: span 1;
+    background-color: white;
+}
+
+.ticDiv{
+    grid-column: span 1;
+    background-color: white;
+}
+
+.ccDiv{
+    grid-column: span 1;
+    background-color: white;
+}
+
+.dssDiv{
+
+    grid-column: span 2;
+    background-color: white;
+}
+
+.legoDiv{
+
+    grid-column: span 3;
+    background-color: white;
+}
