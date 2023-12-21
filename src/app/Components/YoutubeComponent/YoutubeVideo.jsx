@@ -24,8 +24,8 @@ const YouTubeVideo = ({ videoId }) => {
   return (
     <div>
       <iframe
-        width="800"
-        height="450"
+        width="900"
+        height="506"
         src={`https://www.youtube.com/embed/${videoId}`}
         frameBorder="0"
         allowFullScreen

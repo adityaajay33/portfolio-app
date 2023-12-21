@@ -15,6 +15,9 @@ const CardProject = ({title, paragraph, srcs}) => {
         <div className='descriptionCard'>
             {paragraph}
         </div>
+        <div className="imageCard">
+            <Image src={srcs} width={600} className='cardBusiness' />
+        </div>
     </div>
   )
 }
