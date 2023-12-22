@@ -2,53 +2,58 @@
     background: black;
 
     height: 800px;
-    width: 1200px;
+    width: 1400px;
 
     display: grid;
-    grid-template-columns: 400px 80px 480px;
-    grid-template-rows: 240px 240px 360px 340px;
+    grid-template-columns: 583px 117px 700px;
+    grid-template-rows: 350px 350px 525px 520px;
 
     gap: 10px;
-    margin: 30px;
-    margin-left: 20%;
+    margin: 10px;
+    margin-top: 30px;
 }
 
 .pbDiv{
     grid-column: span 2;
     grid-row: span 2;
-    background-color: white;
+    background-color: black;
     position: relative;
 }
 
 .mlDiv{
     grid-column: span 1;
     grid-column: span 1;
-    background-color: white;
+    background-color: black;
+    position: relative;
 }
 
 .ticDiv{
     grid-column: span 1;
-    background-color: white;
+    background-color: black;
+    position: relative;
 }
 
 .ccDiv{
     grid-column: span 1;
-    background-color: white;
+    background-color: black;
+    position: relative;
 }
 
 .dssDiv{
 
     grid-column: span 2;
-    background-color: white;
+    background-color: black;
+    position: relative;
 }
 
 .legoDiv{
 
     grid-column: span 3;
-    background-color: white;
+    background-color: black;
+    position: relative;
 }
 
-.overlay{
+.overlay, .overlay1, .overlay2, .overlay3, .overlay4, .overlay5{
 
   position: absolute;
   top: 0;
@@ -65,11 +70,11 @@
   transition: opacity 0.3s;
 }
 
-.pbDiv:hover {
+.pbDiv:hover, .mlDiv:hover, .ticDiv:hover, .ccDiv:hover, .dssDiv:hover, .legoDiv:hover {
     transform: scale(1.05);
 }
 
-.pbDiv:hover .overlay {
+.pbDiv:hover .overlay, .mlDiv:hover .overlay1, .ticDiv:hover .overlay2, .ccDiv:hover .overlay3, .dssDiv:hover .overlay4, .legoDiv:hover .overlay5{
     opacity: 1;
 }
 
