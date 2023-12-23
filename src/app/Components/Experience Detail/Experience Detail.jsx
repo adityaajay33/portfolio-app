@@ -20,7 +20,7 @@ const experiencesData = [
 ];
 
 const ExperienceDetail = () => {
-  const [selectedExperienceIndex, setSelectedExperienceIndex] = useState(null);
+  const [selectedExperienceIndex, setSelectedExperienceIndex] = useState(0);
 
   const handleExperienceClick = (index) => {
     setSelectedExperienceIndex(index);

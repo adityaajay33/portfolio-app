@@ -1,0 +1,17 @@
+.informationExp{
+
+    width: 75%;
+}
+
+.titleExp{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Sometype Mono', monospace;
+    color: rgb(183, 145, 79);
+}
+
+.descriptionExp{
+    margin: 0px 30px;
+    font-size: 20px;
+}
