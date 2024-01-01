@@ -7,7 +7,7 @@ const experiencesData = [
         name:'TurtleHacks Co-Lead', period:'2022-2023', description: 'Led 19 people team to achieve turnout of 342 participants. Worked closely with Purolator, Microsoft and other sponsor to award hackers $9k in prizes. Directed tech and marketing departments to achieve website development and social media growth.'
     },
     {
-        name:'Firmware Developer', period: '2023-present', description: 'I wrote code for Battery Management Unit HIL in C. I wrote HIL Tests for Battery Management Unit.',
+        name:'Firmware Developer', period: '2023-present', description: 'Wrote code for Battery Management Unit HIL in C. Wrote HIL Tests for Battery Management Unit.',
     },
     {
         name:'Customer Service Rep', period: '2021', description: 'I worked as a customer service representative for a local minigolf location. I handled the transactions, customer experience, and upkeep at the Oakville location during shifts.'
